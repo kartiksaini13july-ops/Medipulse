@@ -61,11 +61,11 @@ export const PatientBookingForm: React.FC<PatientBookingFormProps> = ({
   onSubmitBooking,
   isSubmitting,
 }) => {
-  const [patientName, setPatientName] = useState('Kartik Saini');
+  const [patientName, setPatientName] = useState('Kartik Tyagi');
   const [patientAge, setPatientAge] = useState<number | string>(21);
   const [patientGender, setPatientGender] = useState<'Male' | 'Female' | 'Other'>('Male');
   const [patientPhone, setPatientPhone] = useState('+91 9876543210');
-  const [patientEmail, setPatientEmail] = useState('kartiksaini0905@gmail.com');
+  const [patientEmail, setPatientEmail] = useState('kt759122@gmail.com');
   const [bloodGroup, setBloodGroup] = useState('B+');
   const [consultationMode, setConsultationMode] = useState<ConsultationMode>('in-person');
   const [symptoms, setSymptoms] = useState('Routine clinical checkup and seasonal consultation');
@@ -218,7 +218,7 @@ export const PatientBookingForm: React.FC<PatientBookingFormProps> = ({
                 type="text"
                 value={patientName}
                 onChange={(e) => setPatientName(e.target.value)}
-                placeholder="e.g. Kartik Saini"
+                placeholder="e.g. Kartik Tyagi"
                 className={`w-full pl-10 pr-3.5 py-2.5 bg-slate-50 border rounded-xl text-xs font-medium focus:bg-white focus:outline-hidden focus:ring-2 ${
                   formErrors.patientName
                     ? 'border-red-400 focus:ring-red-400'
@@ -353,10 +353,10 @@ export const PatientBookingForm: React.FC<PatientBookingFormProps> = ({
             <span className="text-slate-500">Quick autofill:</span>
             <button
               type="button"
-              onClick={() => handlePresetEmail('kartiksaini0905@gmail.com')}
+              onClick={() => handlePresetEmail('kt759122@gmail.com')}
               className="px-2.5 py-1 bg-white hover:bg-sky-100 border border-sky-300 rounded-md text-sky-800 font-medium transition cursor-pointer"
             >
-              kartiksaini0905@gmail.com (Preset)
+              kt759122@gmail.com (Preset)
             </button>
             <button
               type="button"

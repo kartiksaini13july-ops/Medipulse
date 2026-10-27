@@ -301,13 +301,13 @@ export const MiniProjectInfoModal: React.FC<MiniProjectInfoModalProps> = ({
         </div>
 
         {/* Footer */}
-        <div className="bg-slate-50 px-6 py-4 border-t border-slate-200 flex items-center justify-between">
-          <span className="text-xs text-slate-500 font-medium">
-            Prepared for 3rd Sem B.Tech Mini Project Viva Examination
+        <div className="bg-slate-50 px-6 py-4 border-t border-slate-200 flex flex-col sm:flex-row items-center justify-between gap-3">
+          <span className="text-xs text-slate-600 font-medium">
+            Prepared by <strong className="text-slate-900">Kartik Tyagi</strong> (kt759122@gmail.com) • 3rd Sem B.Tech CSE / IT Mini Project
           </span>
           <button
             onClick={onClose}
-            className="px-4 py-2 bg-slate-900 text-white text-xs font-bold rounded-xl hover:bg-slate-800 transition"
+            className="px-4 py-2 bg-slate-900 text-white text-xs font-bold rounded-xl hover:bg-slate-800 transition cursor-pointer"
           >
             Close Documentation
           </button>

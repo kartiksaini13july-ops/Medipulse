@@ -44,7 +44,7 @@ export const OPDStaffDesk: React.FC<OPDStaffDeskProps> = ({
   const [selectedDocId, setSelectedDocId] = useState(doctors[0]?.id || '');
   const [walkinName, setWalkinName] = useState('');
   const [walkinPhone, setWalkinPhone] = useState('+91 9876543210');
-  const [walkinEmail, setWalkinEmail] = useState('kartiksaini0905@gmail.com');
+  const [walkinEmail, setWalkinEmail] = useState('kt759122@gmail.com');
   const [walkinSuccess, setWalkinSuccess] = useState(false);
 
   const selectedDoc = doctors.find((d) => d.id === selectedDocId) || doctors[0];
@@ -315,7 +315,7 @@ export const OPDStaffDesk: React.FC<OPDStaffDeskProps> = ({
                 required
                 value={walkinEmail}
                 onChange={(e) => setWalkinEmail(e.target.value)}
-                placeholder="kartiksaini0905@gmail.com"
+                placeholder="kt759122@gmail.com"
                 className="w-full p-2.5 bg-slate-50 border border-slate-200 rounded-xl text-xs font-medium focus:bg-white focus:outline-hidden focus:ring-1 focus:ring-sky-500"
               />
             </div>

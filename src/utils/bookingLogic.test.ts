@@ -93,9 +93,9 @@ test('validateBookingInput catches missing or invalid fields', () => {
   assert.ok(invalid.errors.slotId);
 
   const valid = validateBookingInput({
-    patientName: 'Kartik Saini',
+    patientName: 'Kartik Tyagi',
     patientAge: 21,
-    patientEmail: 'kartiksaini0905@gmail.com',
+    patientEmail: 'kt759122@gmail.com',
     patientPhone: '+91 9876543210',
     symptoms: 'Mild chest discomfort and palpitations during exertion',
     slotId: 'slot-card-1',
@@ -147,11 +147,11 @@ test('generateAutomatedConfirmationEmail constructs full email payload with SMTP
     date: '2026-10-20',
     slotId: 'slot-1',
     slotTime: '10:30 AM',
-    patientName: 'Kartik Saini',
+    patientName: 'Kartik Tyagi',
     patientAge: 21,
     patientGender: 'Male',
     patientPhone: '+91 9876543210',
-    patientEmail: 'kartiksaini0905@gmail.com',
+    patientEmail: 'kt759122@gmail.com',
     bloodGroup: 'B+',
     consultationMode: 'in-person',
     symptoms: 'Chest flutter after exercise',
@@ -167,7 +167,7 @@ test('generateAutomatedConfirmationEmail constructs full email payload with SMTP
   };
 
   const email = generateAutomatedConfirmationEmail(mockAppt, mockDoc, mockDept);
-  assert.equal(email.recipientEmail, 'kartiksaini0905@gmail.com');
+  assert.equal(email.recipientEmail, 'kt759122@gmail.com');
   assert.ok(email.subject.includes('Token #14'));
   assert.ok(email.htmlBody.includes('MediPulse Multi-Speciality Hospital'));
   assert.ok(email.htmlBody.includes('#14'));

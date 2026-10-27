@@ -345,11 +345,11 @@ export const INITIAL_SEED_APPOINTMENTS: Appointment[] = [
     date: getDateOffset(0),
     slotId: `slot-doc-1-${getDateOffset(0)}-3`,
     slotTime: '10:30 AM',
-    patientName: 'Kartik Saini',
+    patientName: 'Kartik Tyagi',
     patientAge: 21,
     patientGender: 'Male',
     patientPhone: '+91 9876543210',
-    patientEmail: 'kartiksaini0905@gmail.com',
+    patientEmail: 'kt759122@gmail.com',
     bloodGroup: 'B+',
     consultationMode: 'in-person',
     symptoms: 'Mild chest discomfort during routine cardio exercises',
@@ -397,15 +397,15 @@ export const INITIAL_SEED_EMAILS: EmailNotification[] = [
   {
     id: 'EMAIL-INIT-001',
     appointmentId: 'appt-seed-001',
-    recipientEmail: 'kartiksaini0905@gmail.com',
-    recipientName: 'Kartik Saini',
+    recipientEmail: 'kt759122@gmail.com',
+    recipientName: 'Kartik Tyagi',
     subject: 'Confirmed: OPD Token #15 with Dr. Arvind Sharma [Ref: PULSE-CARD-015-882]',
     previewSnippet: `Your consultation is booked for ${getDateOffset(0)} at 10:30 AM. Room: OPD-204, Wing: Block B, 2nd Floor. Token #15.`,
     sentAt: new Date(Date.now() - 3590000).toISOString(),
     status: 'delivered',
     headers: {
       from: '"MediPulse OPD Automated Mailer" <appointments@medipulse-hospital.org>',
-      to: 'Kartik Saini <kartiksaini0905@gmail.com>',
+      to: 'Kartik Tyagi <kt759122@gmail.com>',
       subject: 'Confirmed: OPD Token #15 with Dr. Arvind Sharma [Ref: PULSE-CARD-015-882]',
       messageId: '<opd-pulse-card-015-882@mail.medipulse-hospital.org>',
       contentType: 'text/html; charset=UTF-8',
@@ -414,7 +414,7 @@ export const INITIAL_SEED_EMAILS: EmailNotification[] = [
     },
     textBody: `MediPulse Hospital - OPD Confirmation
 Token: #15 | Ref: PULSE-CARD-015-882
-Patient: Kartik Saini
+Patient: Kartik Tyagi
 Doctor: Dr. Arvind Sharma (MD, DM Cardiology)
 Date: ${getDateOffset(0)} at 10:30 AM
 Room: OPD-204 (Block B, 2nd Floor)
@@ -435,7 +435,7 @@ Status: Confirmed`,
       <div style="font-size: 12px; color: #475569; font-family: monospace;">Ref: PULSE-CARD-015-882 | UHID-2026-8910</div>
     </div>
     <div style="padding: 0 20px 20px;">
-      <p>Dear <strong>Kartik Saini</strong>, your consultation is scheduled with <strong>Dr. Arvind Sharma</strong> (Cardiology) on <strong>${getDateOffset(0)}</strong> at <strong>10:30 AM</strong> in <strong>OPD-204 (Block B, 2nd Floor)</strong>.</p>
+      <p>Dear <strong>Kartik Tyagi</strong>, your consultation is scheduled with <strong>Dr. Arvind Sharma</strong> (Cardiology) on <strong>${getDateOffset(0)}</strong> at <strong>10:30 AM</strong> in <strong>OPD-204 (Block B, 2nd Floor)</strong>.</p>
       <div style="background: #f1f5f9; padding: 12px; border-radius: 6px; font-size: 13px; color: #475569;">
         <strong>Instructions:</strong> Please arrive 15 minutes before your time slot for preliminary vitals registration at Desk 4.
       </div>

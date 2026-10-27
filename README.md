@@ -102,7 +102,7 @@ Traditional hospital outpatient lobbies in developing nations suffer from:
   - MIME headers (`Message-ID`, `TLSv1.3`, `Content-Type: text/html`).
   - Simulated SMTP response: `250 2.0.0 OK: queued as 7F8D41C091`.
   - Raw HTML inspection and one-click copy or external client launch (`mailto:`).
-- **One-Click Preset Autofill**: Preloaded with student email `kartiksaini0905@gmail.com` for rapid examiner demonstrations.
+- **One-Click Preset Autofill**: Preloaded with student email `kt759122@gmail.com` for rapid examiner demonstrations.
 
 ### 3. Live OPD Queue Display Board with Visual Alert Pulse
 - **Digital Waiting Room Display**: Simulates hospital hallway monitors showing:
@@ -301,8 +301,8 @@ node --test src/utils/bookingLogic.test.ts
 
 ## 👨‍💻 Author & Academic Attribution
 
-- **Project Lead**: Kartik Saini
-- **Email**: `kartiksaini0905@gmail.com`
+- **Project Lead**: Kartik Tyagi
+- **Email**: `kt759122@gmail.com`
 - **Course**: 3rd Semester B.Tech (Computer Science & Engineering / IT)
 - **Institution**: Department of Computer Science & Engineering
 - **License**: Apache-2.0
