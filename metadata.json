@@ -1,0 +1,6 @@
+{
+  "name": "MediPulse OPD - Real-Time Hospital Appointment & Email Notification System",
+  "description": "Dynamic hospital appointment booking portal for 3rd sem B.Tech mini project featuring real-time slot tracking, automated email confirmations, and live OPD queue management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
